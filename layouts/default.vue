@@ -1,10 +1,7 @@
 <template>
   <div>
-    <SeoKit />
-    <OgImageScreenshot />
-    <OgImageStatic />
-    <header>Header</header>
+    <DefaultNavbarDefault />
     <NuxtPage />
-    <footer>Footer</footer>
+    <DefaultFooterDefault />
   </div>
 </template>

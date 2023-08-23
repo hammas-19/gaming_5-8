@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
-    "@pinia/nuxt": "^0.4.11"
+    "@pinia/nuxt": "^0.4.11",
+    "axios": "^1.4.0",
+    "vue3-carousel": "^0.3.1"
   }
 }
