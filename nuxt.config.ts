@@ -1,9 +1,10 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://alnafi.com',
-      siteName: 'Al Nafi',
-      siteDescription: 'Educational Benefits for all',
+      siteUrl: process.env.API_BASE_URL,
+      API_KEY: process.env.API_KEY,
+      siteName: '5-8 Movies',
+      siteDescription: 'Entertainent Benefits for all',
       language: 'en',
       titleSeparator: '|'
     }

@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white">
+  <header class="bg-[#464646]">
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="md:flex md:items-center md:gap-12">
@@ -24,7 +24,7 @@
             <ul class="flex items-center gap-6 text-sm">
               <li>
                 <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-white transition hover:text-gray-500/75"
                   href="/"
                 >
                   About
@@ -33,7 +33,7 @@
 
               <li>
                 <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-white transition hover:text-gray-500/75"
                   href="/"
                 >
                   Careers
@@ -42,7 +42,7 @@
 
               <li>
                 <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-white transition hover:text-gray-500/75"
                   href="/"
                 >
                   History
@@ -51,7 +51,7 @@
 
               <li>
                 <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-white transition hover:text-gray-500/75"
                   href="/"
                 >
                   Services
@@ -60,7 +60,7 @@
 
               <li>
                 <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-white transition hover:text-gray-500/75"
                   href="/"
                 >
                   Projects
@@ -69,7 +69,7 @@
 
               <li>
                 <a
-                  class="text-gray-500 transition hover:text-gray-500/75"
+                  class="text-white transition hover:text-gray-500/75"
                   href="/"
                 >
                   Blog

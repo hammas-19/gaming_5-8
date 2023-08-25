@@ -1,48 +1,31 @@
-export default {
+module.exports = {
+  content: [
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}'
+  ],
   theme: {
+    colors: {
+      Bluish: '#2D6FBC',
+      BalticSea: '#262626',
+      snowDrift: '#F7F9FA',
+      blackCow: '#4A4A4A',
+      gossip: '#abf5a8',
+      bananaYellow: '#FFDC34',
+      lightGrey: '#DADADA',
+      warningRed: '#d90429',
+      transparent: 'transparent',
+      white: '#fff'
+    },
     screens: {
       sm: '480px',
       md: '768px',
       lg: '976px',
       xl: '1440px'
     },
-    colors: {
-      'gray-dark': '#273444'
-    },
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif']
-    },
-    extend: {
-      spacing: {
-        128: '32rem',
-        144: '36rem'
-      },
-      borderRadius: {
-        '4xl': '2rem'
-      }
-    }
+    extend: {}
   },
-  content: [
-    './components/**/*.{vue,js,ts}',
-    './layouts/**/*.vue',
-    './pages/*.vue',
-    './pages/**/*.vue',
-    './pages/**/**/*.vue',
-    './pages/**/**/**/*.vue',
-    './composables/*.{js,ts}',
-    './composables/**/*.{js,ts}',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}'
-  ],
-  darkMode: 'class',
-  plugins: [
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require('tailwindcss-dark-mode')()
-  ],
-  variants: {
-    extend: {
-      display: ['dark']
-    }
-  }
+  plugins: []
 }
