@@ -8,10 +8,12 @@
         See More
       </span>
     </div>
-    <div class="flex flex-wrap gap-8 justify-between bg-[#c9c9c9] p-5 rounded-2xl h-[calc(100vh-400px)] overflow-y-scroll">
-        <template v-for="movie, index in apiData" :key="index">
-            <ShowCard :movie-data="movie" />
-        </template>
+    <div class="flex flex-wrap gap-8 justify-between bg-[#c9c9c9] p-5 rounded-2xl h-[calc(100vh-300px)] overflow-y-scroll">
+      <template v-for="movie, index in apiData.slice(0, 10)" :key="index">
+        <NuxtLink :to="'/slug/' + movie.id">
+          <ShowCard :movie-data="movie" />
+        </NuxtLink>
+      </template>
     </div>
   </div>
 </template>
